@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  token_id: MyString
+  image_url: MyString
+  background_color: MyString
+  name: MyString
+  external_link: MyString
+  asset_contract: MyString
+  owner: MyString
+  traits: MyString
+  last_sale: MyString
+
+two:
+  token_id: MyString
+  image_url: MyString
+  background_color: MyString
+  name: MyString
+  external_link: MyString
+  asset_contract: MyString
+  owner: MyString
+  traits: MyString
+  last_sale: MyString
