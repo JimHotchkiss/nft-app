@@ -1,7 +1,9 @@
 import './App.css';
+// Export default doesn't require {}
+import Navbar from './components/Navbar';
 // import { useEffect, useState } from "react"
-import { Navbar } from './components/Navbar'
-// import { Nfts } from './components/Nfts';
+// Export const requires {}
+import { Nfts } from './components/Nfts';
 
 
 const API_URL = "http://localhost:3000/api/v1/nfts"
@@ -26,8 +28,8 @@ function App() {
   
   return (
     <div>
-      App
-     {/* {nfts &&  <Nfts nfts = {nfts}loaded = {loaded}/> } */}
+      <Navbar />
+     
     </div>
   );
 }

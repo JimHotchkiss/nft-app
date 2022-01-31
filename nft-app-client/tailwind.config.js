@@ -3,7 +3,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    screens : {
+    screens: {
       'sm': '480px',
       // => @media (min-width: 640px) { ... }
 
@@ -18,6 +18,10 @@ module.exports = {
 
       '2xl': '1680px',
       // => @media (min-width: 1536px) { ... }
+    },
+    container: {
+      center: true,
+      padding: '2rem',
     },
     extend: {
       colors: {
