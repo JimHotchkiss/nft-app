@@ -3,12 +3,12 @@ import React from 'react';
 export const Nfts = ({ nfts, loaded}) => {
  
   return (
-    <div>
+    <div className='container'>
       
 
 
       {nfts.map(nft => (
-        <div key={nft.id}>
+        <div key={nft.id} className='text-lime-400'>
            {console.log(nft)}
           <h1>{nft.name}</h1>
           <p>{nft.owner}</p>
