@@ -5,6 +5,8 @@ import { DiAtom, DiDatabase, DiRor } from "react-icons/di"
 
 
 const SideBar = () => {
+
+
   return (
   <div className='h-screen w-16 flex 
                   flex-col bg-primary shadow justify-center'>

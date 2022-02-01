@@ -1,15 +1,16 @@
 import React from 'react';
 
 
+
 const SideBarIcon = ({ icon }) => {
 
-    const handleClick = () => {
-        alert('sup')
+    const handleClick = (name) => {
+        alert(name)
     }
   return (
   <div>
     <i onClick={() => {
-        handleClick()
+        handleClick('Jimmy')
     }} className="sidebar-icon">
         {icon}
     </i>
