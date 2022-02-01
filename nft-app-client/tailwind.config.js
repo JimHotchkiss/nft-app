@@ -25,7 +25,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary : '#ff4800'
+        primary: '#0f172a',
+        secondary: '#1e293b',
+        discord_blue: '#6064f4'
       }
     },
   },
