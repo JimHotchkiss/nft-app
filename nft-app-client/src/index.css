@@ -10,4 +10,7 @@
     hover:bg-slate-700 hover:text-react_blue rounded-3xl hover:rounded-xl
     transition-all duration-300 ease-linear cursor-pointer;
   }
+  .nfts-show {
+    @apply w-auto h-auto px-16 bg-secondary transition-all duration-200 ease-linear
+  }
 }
