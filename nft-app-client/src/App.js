@@ -17,6 +17,12 @@ function App() {
     console.log(open)
   }
 
+  const showSingle = (slug) => {
+    fetch(`https://api.opensea.io/api/v1/collection/${slug}`)
+      .then(response => response.json())
+      .then(data => console.log(data))
+  }
+
   useEffect(() => {
     fetch('https://api.opensea.io/api/v1/assets')
       .then(response => response.json())
@@ -24,11 +30,12 @@ function App() {
   }, [])
   
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row'> 
       <SideBar 
         onOpenStateToggle={openStateToggle}/>
       <Cards 
         nfts={nfts}
+        onShowSingle={showSingle}
         display={open}/> 
 
     </div>
