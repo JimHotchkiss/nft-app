@@ -4,7 +4,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '480px',
+      'sm': '390px',
       // => @media (min-width: 640px) { ... }
 
       'md': '547px',
@@ -27,7 +27,10 @@ module.exports = {
       colors: {
         primary: '#0f172a',
         secondary: '#1e293b',
-        react_blue: '#63dbfb'
+        react_blue: '#63dbfb',
+        discord_gray: '#3a3c41',
+        discord_primary: '#262729',
+        discord_secondary: '#333439'
       }
     },
   },

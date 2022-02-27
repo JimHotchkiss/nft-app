@@ -4,7 +4,7 @@ import Card from './Card'
 const Cards = ({ display, nfts, onShowSingle }) => {
 
   return (
-  <div className={display ? 'nfts-show' : 'w-0 h-screen bg-secondary transition-all duration-200 ease-linear'}>
+  <div className={display ? 'nfts-show' : 'scale-0 h-screen bg-secondary transition-all duration-200 ease-linear'}>
 
     {nfts.map(nft => (
       <Card 

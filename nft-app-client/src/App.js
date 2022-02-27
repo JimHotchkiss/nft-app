@@ -4,7 +4,7 @@ import Cards from './components/Cards'
 import { useState, useEffect } from 'react'
 // Export default doesn't require {}
 // Export const requires {}
-
+// `https://api.opensea.io/api/v1/collection/${slug}`
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
   }
 
   const showSingle = (slug) => {
-    fetch(`https://api.opensea.io/api/v1/collection/${slug}`)
+    fetch(`https://api.opensea.io/api/v1/assets`)
       .then(response => response.json())
-      .then(data => console.log(data))
+      .then(data => console.log(data.assets))
   }
 
   useEffect(() => {

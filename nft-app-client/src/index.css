@@ -6,11 +6,12 @@
 @layer components {
   .sidebar-icon {
     @apply flex items-center justify-center
-    h-12 w-12 mt-4 mb-4 mx-auto bg-secondary text-white
+    h-12 w-12 mt-4 mb-4 mx-auto bg-discord_gray text-gray-100
     hover:bg-slate-700 hover:text-react_blue rounded-3xl hover:rounded-xl
     transition-all duration-300 ease-linear cursor-pointer;
   }
   .nfts-show {
-    @apply w-auto h-auto px-16 bg-secondary transition-all duration-200 ease-linear
+    @apply scale-100 h-auto md:px-16 bg-discord_gray
   }
 }
+/* transition-all duration-200 ease-linear */
