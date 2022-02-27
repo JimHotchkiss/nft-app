@@ -30,7 +30,7 @@ function App() {
   }, [])
   
   return (
-    <div className='flex flex-row'> 
+    <div className='flex flex-row bg-discord_gray'> 
       <SideBar 
         onOpenStateToggle={openStateToggle}/>
       <Cards 

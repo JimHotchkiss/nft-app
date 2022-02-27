@@ -15,8 +15,8 @@ const Card = ({id, display, imageUrl, slug, name, description, permalink, onShow
                     src={imageUrl ? imageUrl : OpenSeaImage} alt={slug}/>
             </div>
             <div>
-                <h2 className="text-react_blue sm:text-xl text-3xl font-semibold">{name}</h2>
-                <p className="mt-2 text-gray-300 sm:text-sm">{description? description: "This NFT doesn't have any description."}</p>
+                <h2 className="text-react_blue sm:text-xl lg:text-3xl font-semibold">{name}</h2>
+                <p className="mt-2 text-gray-300 sm:text-sm lg:text-base">{description? description: "This NFT doesn't have any description."}</p>
                 </div>
             <div className="flex justify-end mt-4">
                 <a target="_blank" rel="noreferrer" href={permalink} className="text-xl font-medium text-react_blue">OpenSea</a>

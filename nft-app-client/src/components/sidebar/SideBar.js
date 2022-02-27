@@ -6,7 +6,7 @@ import { DiAtom, DiDatabase, DiRor } from "react-icons/di"
 
 const SideBar = ({ onOpenStateToggle }) => {
   return (
-  <div className='h-auto px-3 bg-discord_primary'>
+  <div className='h-screen sticky top-0 px-3 bg-discord_primary'>
       <SideBarBtn 
         onClick={onOpenStateToggle} 
         icon={<DiAtom size={40}/>}/>
