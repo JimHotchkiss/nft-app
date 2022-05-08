@@ -30,7 +30,8 @@ module.exports = {
         react_blue: '#63dbfb',
         discord_gray: '#3a3c41',
         discord_primary: '#262729',
-        discord_secondary: '#333439'
+        discord_secondary: '#333439',
+        stryker_yellow: '#edb328'
       }
     },
   },
